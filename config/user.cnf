@@ -2,5 +2,8 @@
 # Needed for compatibility with existing SQL clients / WordPress.
 default-authentication-plugin=mysql_native_password
 
+# Fix sort buffer size errors
+sort_buffer_size=256k
+
 # Listen on all interfaces
 bind-address=0.0.0.0
