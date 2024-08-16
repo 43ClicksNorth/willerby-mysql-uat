@@ -3,7 +3,7 @@
 default-authentication-plugin=mysql_native_password
 
 # Fix sort buffer size errors
-sort_buffer_size=2048k
+sort_buffer_size=4M
 
 # Listen on all interfaces
 bind-address=0.0.0.0
